@@ -1,0 +1,37 @@
+{
+  "name": "canopy",
+  "description": "PEG parser compiler for JavaScript",
+  "homepage": "https://canopy.jcoglan.com",
+  "author": "James Coglan <jcoglan@gmail.com> (http://jcoglan.com/)",
+  "keywords": [
+    "parser",
+    "compiler",
+    "peg"
+  ],
+  "license": "MPL-2.0",
+  "version": "0.4.0",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "templates"
+  ],
+  "main": "./lib/canopy.js",
+  "bin": {
+    "canopy": "./bin/canopy"
+  },
+  "devDependencies": {
+    "benchmark": "",
+    "jstest": "",
+    "pegjs": ""
+  },
+  "bugs": {
+    "url": "https://github.com/jcoglan/canopy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jcoglan/canopy.git"
+  }
+}
